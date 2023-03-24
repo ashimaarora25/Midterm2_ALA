@@ -1,7 +1,7 @@
 
 function [ soln, niters ] = CG( A, b, x0 )
  
-    curr_r = b-A*x_0; %initialize residual
+    curr_r = b-A*x0; %initialize residual
     niters=0;
     x = x0;
     
