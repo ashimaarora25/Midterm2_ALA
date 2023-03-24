@@ -1,4 +1,4 @@
-function [ soln, niters ]= Method_of_Steepest_Descent( A, b, x0 )
+function [ soln, niters ] = Method_of_Steepest_Descent( A, b, x0 )
     
     r_i = b - A*x0; %initialize residual
     niters=0;
