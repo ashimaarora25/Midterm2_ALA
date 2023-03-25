@@ -16,7 +16,7 @@ function [ A ] = Create_Poisson_problem_A( N )
         if j+1<=N*N && (r~=0)    
             A(j,j+1) = -1;
         end
-    % Set the other off-diagonal entries
+        % Set the other off-diagonal entries
         if j-N >=1 
             A(j,j-N) = -1;
         end
